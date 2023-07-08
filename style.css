@@ -2,3 +2,34 @@ img {
     height: 300px;
     width: 450px;
 }
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    flex-direction: column;
+    display: flex;
+}
+
+.header {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 750;
+    display: flex;
+}
