@@ -2,6 +2,7 @@ img {
     height: 300px;
     width: 450px;
 }
+
 a {
     text-decoration: none;
 }
@@ -32,4 +33,46 @@ ul {
     font-size: 24px;
     font-weight: 750;
     display: flex;
+}
+.content_01 {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 245px;
+}
+
+.text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.sub_text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 6px;
+}
+
+button.shop {
+    background: #3882F6;
+    border: 1px solid #3882F6;
+    color: #f9faf8;
+    margin-top: 12px;
+    height: 34px;
+    width: 85px;
+}
+
+.engine {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    width: 450px;
 }
