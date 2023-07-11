@@ -106,3 +106,26 @@ button.shop {
     gap: 36px;
     margin-bottom: 36px;
 }
+
+.content_03 {
+    display: flex;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1f2937;
+    justify-content: center;
+}
+
+.words {
+    font-style: italic;
+    margin-top: 55px;
+    display: flex;
+}
+
+.name {
+    font-weight: bold;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: flex-end;
+    margin-top: 8px;
+    margin-bottom: 55px;
+}
