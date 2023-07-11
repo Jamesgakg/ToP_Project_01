@@ -170,10 +170,11 @@ button.shop {
 }
 
 button.contact_us {
+    font-weight: bold;
     font-size: 20px;
     background: #3882F6;
     border-radius: 8px;
-    border: 1px solid #E5E7EB;
+    border: 2px solid #E5E7EB;
     height: 48px;
     width: 148px;
     color: #E5E7EB;
