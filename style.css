@@ -95,6 +95,7 @@ button.shop {
 
 .parts_text {
     margin-top: 18px;
+    font-size: 18px;
 }
 
 .content_02 {
@@ -128,4 +129,50 @@ button.shop {
     justify-content: flex-end;
     margin-top: 8px;
     margin-bottom: 55px;
+}
+
+.content_04 {
+    display: flex;
+    justify-content: center;
+}
+
+.order_modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.order {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 8px;
+    margin: 66px;
+    padding: 66px;
+}
+
+.order_header {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    gap: 650px;
+    font-size: 36px;
+    color: #E5E7EB;
+    margin-bottom: 6px;
+}
+
+.order_text {
+    display: flex;
+    flex-grow: 1;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button.contact_us {
+    font-size: 20px;
+    background: #3882F6;
+    border-radius: 8px;
+    border: 1px solid #E5E7EB;
+    height: 48px;
+    width: 148px;
+    color: #E5E7EB;
 }
