@@ -1,6 +1,7 @@
 img {
     height: 300px;
     width: 450px;
+    border-radius: 8px;
 }
 
 a {
@@ -64,6 +65,7 @@ ul {
 button.shop {
     background: #3882F6;
     border: 1px solid #3882F6;
+    border-radius: 8px;
     color: #f9faf8;
     margin-top: 12px;
     height: 34px;
@@ -74,5 +76,33 @@ button.shop {
     display: flex;
     align-items: center;
     height: 300px;
-    width: 450px;
+}
+
+.content_02 img {
+    width: 280px;
+    height: 180px;
+}
+
+.title {
+    justify-content: center;
+    display: flex;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+.parts_text {
+    margin-top: 18px;
+}
+
+.content_02 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    gap: 36px;
+    margin-bottom: 36px;
 }
